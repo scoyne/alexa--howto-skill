@@ -5,7 +5,6 @@ const Alexa = require('ask-sdk-core');
 const recipes = require('./recipes');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
-const GA_TRACKING_ID = ('UA-126188859-1');
 
 /* INTENT HANDLERS */
 const LaunchRequestHandler = {
